@@ -1,0 +1,15 @@
+.container {
+  padding-top: 10rem;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me h2 {
+  font-size: 3rem;
+}
+
+.about-me p {
+  margin: 5rem 10rem;
+}

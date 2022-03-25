@@ -12,7 +12,7 @@ class NavBar extends React.Component {
         return (
             <nav>
                 <a href="#"> <AiOutlineHome /> {/* Home */} </a>
-                <a href="#"> <AiOutlineUser /> {/* About me */} </a>
+                <a href="#About"> <AiOutlineUser /> {/* About me */} </a>
                 <a href="#"> <BiCollection /> {/* Contact me */}</a>
                 <a href="#"> <AiOutlineExperiment /> {/* projects */}</a>
                 <a href="#"> <BiMessageSquareDetail /> {/* Contact me */}</a>
