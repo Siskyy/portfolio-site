@@ -12,18 +12,26 @@ img {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
   margin: 0 6rem;
+  color: #fffef2;
 }
 
 .project-tile {
-  background: #ffd9ab;
+  background: #364657;
   border-radius: 2rem;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 .project-image {
   border-radius: 1rem;
   overflow: hidden;
+}
+.project-tile h3 {
+  margin: 1rem 0 1rem;
+  font-size: 1.5rem;
+}
+.project-tile p {
+  font-weight: 300;
 }
