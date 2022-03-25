@@ -3,6 +3,9 @@ import './NavBar.css';
 
 import {AiOutlineHome} from '../../../node_modules/react-icons/ai/index';
 import {AiOutlineUser} from '../../../node_modules/react-icons/ai/index';
+import {AiOutlineExperiment} from '../../../node_modules/react-icons/ai/index';
+import {BiCollection} from '../../../node_modules/react-icons/bi/index';
+import {BiMessageSquareDetail} from '../../../node_modules/react-icons/bi/index';
 
 class NavBar extends React.Component {
     render() {
@@ -10,8 +13,9 @@ class NavBar extends React.Component {
             <nav>
                 <a href="#"> <AiOutlineHome /> {/* Home */} </a>
                 <a href="#"> <AiOutlineUser /> {/* About me */} </a>
-                <a href="#">3 {/* projects */}</a>
-                <a href="#">4 {/* Contact me */}</a>
+                <a href="#"> <BiCollection /> {/* Contact me */}</a>
+                <a href="#"> <AiOutlineExperiment /> {/* projects */}</a>
+                <a href="#"> <BiMessageSquareDetail /> {/* Contact me */}</a>
             </nav>
         )
     }
