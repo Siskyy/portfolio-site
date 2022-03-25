@@ -32,10 +32,12 @@ class Projects extends React.Component {
                     {
                         projects.map(({id, image, title, description, stack, github, demo}) => {
                             return (
-                                <div className="project-image">
-                                    <img src={image} alt="Placeholder" />
+                                <div className="project-tile">
+                                    <div className="project-image">
+                                        <img src={image} alt="Placeholder" />
+                                    </div>
+                                    <h2>{title}</h2>
                                 </div>
-                                <h2>{title}</h2>
                             )
                         })
                     }
