@@ -3,7 +3,8 @@ import './Projects.css';
 
 import img1 from '../../Assets/playmixerpreview1.png';
 import img2 from '../../Assets/playmixerpreview2.png'; 
-import img3 from '../../Assets/playmixerpreview3.png'; 
+import img3 from '../../Assets/playmixerpreview3.png';
+import img4 from '../../Assets/PersonalPortfoliosite1.png';
 
 
 const projects = [
@@ -14,11 +15,11 @@ const projects = [
         description: 'A React app using the Spotify API to allow the user to search for songs or artists, and then add them to a playlist. Which can then be added to their Spotify account directly from the site',
         stack: 'React.js | JavaScript | Spotify API | HTML & CSS',
         github: '',
-        demo: ''
+        demo: 'https://playmixer.surge.sh/'
     },
     {
         id: 2,
-        image: img2,
+        image: img4,
         title: 'Portfolio webiste',
         description: 'My personal portolfio wesbite',
         stack: '',
