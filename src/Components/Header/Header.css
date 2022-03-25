@@ -1,0 +1,11 @@
+header {
+  height: 10rem;
+  background-color: #fbf2d8;
+}
+
+.greeting {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  position: relative;
+}
