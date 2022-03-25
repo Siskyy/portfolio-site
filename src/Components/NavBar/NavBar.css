@@ -1,14 +1,21 @@
 nav {
-  background: rgba(108, 116, 132, 0.3);
+  background: rgba(108, 116, 132, 0.9);
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  width: 20%;
+  width: max-content;
   z-index: 10;
   bottom: 4rem;
   border-radius: 3rem;
-  padding: 1.5rem 4rem;
+  padding: 1.25rem 3rem;
   display: block;
   gap: 1rem;
   text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fbf2d8;
+  padding: 0.7rem;
 }
