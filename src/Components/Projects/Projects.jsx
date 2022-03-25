@@ -1,10 +1,12 @@
 import React from 'react';
 import './Projects.css';
 
+import img1 from '../../Assets/playmixerpreview1.png';
+
 const projects = [
     {
         id: 1,
-        image: '',
+        image: img1,
         title: 'Playmixer - Spotify playlist maker',
         description: 'Spotify API to make playlists from this react app',
         stack: '',
@@ -32,12 +34,20 @@ class Projects extends React.Component {
                     {
                         projects.map(({id, image, title, description, stack, github, demo}) => {
                             return (
-                                <div className="project-tile">
+                                <article key={id} className="project-tile">
                                     <div className="project-image">
                                         <img src={image} alt="Placeholder" />
                                     </div>
-                                    <h2>{title}</h2>
-                                </div>
+                                    <h3>{title}</h3>
+                                    <p>{description}</p>
+                                    <div className="tech-stack">
+                                        <p></p>
+                                    </div>
+                                    <div classname="links">
+                                        <a></a>
+                                        <a></a>
+                                    </div>
+                                </article>
                             )
                         })
                     }
