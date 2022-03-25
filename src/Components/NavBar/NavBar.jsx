@@ -14,7 +14,7 @@ class NavBar extends React.Component {
                 <a href="#"> <AiOutlineHome /> {/* Home */} </a>
                 <a href="#About"> <AiOutlineUser /> {/* About me */} </a>
                 <a href="#"> <BiCollection /> {/* Contact me */}</a>
-                <a href="#"> <AiOutlineExperiment /> {/* projects */}</a>
+                <a href="#Projects"> <AiOutlineExperiment /> {/* projects */}</a>
                 <a href="#"> <BiMessageSquareDetail /> {/* Contact me */}</a>
             </nav>
         )
