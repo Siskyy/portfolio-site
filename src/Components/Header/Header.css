@@ -1,6 +1,7 @@
 header {
   height: 10rem;
   background-color: #fbf2d8;
+  padding-top: 10rem;
 }
 
 .greeting {
@@ -8,4 +9,5 @@ header {
   vertical-align: middle;
   height: 100%;
   position: relative;
+  font-size: 1.5rem;
 }
