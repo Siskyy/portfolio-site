@@ -12,7 +12,7 @@ const projects = [
         image: img3,
         title: 'Playmixer - Spotify playlist maker',
         description: 'A React app using the Spotify API to allow the user to search for songs or artists, and then add them to a playlist. Which can then be added to their Spotify account directly from the site',
-        stack: '',
+        stack: 'React.js | JavaScript | Spotify API | HTML & CSS',
         github: '',
         demo: ''
     },
@@ -44,11 +44,11 @@ class Projects extends React.Component {
                                     <h3>{title}</h3>
                                     <p>{description}</p>
                                     <div className="tech-stack">
-                                        <p></p>
+                                        <p>{stack}</p>
                                     </div>
-                                    <div classname="links">
-                                        <a></a>
-                                        <a></a>
+                                    <div className="links">
+                                        <a href={github} className="btn">Github</a>
+                                        <a href={demo} className="btn btn-filled">Live Demo</a>
                                     </div>
                                 </article>
                             )

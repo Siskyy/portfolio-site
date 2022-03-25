@@ -13,7 +13,7 @@ img {
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
+  gap: 8rem;
   margin: 0 6rem;
   color: #fffef2;
 }
@@ -34,4 +34,40 @@ img {
 }
 .project-tile p {
   font-weight: 300;
+}
+.tech-stack p {
+  font-weight: 400;
+  padding-top: 0.5rem;
+  color: #fbf2d8;
+  font-size: 1.1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem 1.2rem;
+  border: 1px solid #fffef2;
+  border-radius: 1rem;
+  color: #fbf2d8;
+  text-decoration: none;
+  transition: 400ms ease-in-out;
+}
+
+.btn-filled {
+  background: #fbf2d8;
+  color: #364657;
+}
+
+.btn:hover {
+  transition: 400ms ease-in-out;
+  background: #ffb291;
+  border-color: transparent;
 }
