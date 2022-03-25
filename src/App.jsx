@@ -13,11 +13,6 @@ function App() {
       <NavBar />
       <About />
       <Projects />
-      <div className="App">
-        <header className="App-header">
-          <img className="App-logo" alt="logo" />
-        </header>
-      </div>
     </>
   );
 }
