@@ -9,7 +9,6 @@ header {
 
 .greeting {
   text-align: center;
-  height: 100%;
   position: absolute;
   font-size: 1.5rem;
   top: 8rem;
