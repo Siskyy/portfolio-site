@@ -1,9 +1,9 @@
 header {
-  height: 10rem;
+  height: 10vh;
   background-color: #fbf2d8;
   background-image: url("../../Assets/Firewatchblankspace.png");
   background-size: cover;
-  padding-top: 15rem;
+  padding-top: 16rem;
   padding-bottom: 37rem;
 }
 
@@ -14,11 +14,17 @@ header {
   top: 8rem;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
 }
 
 .greeting h1 {
   font-size: 7rem;
 }
 .greeting h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #364657;
+}
+
+.greeting h5 {
+  color: #364657;
 }
