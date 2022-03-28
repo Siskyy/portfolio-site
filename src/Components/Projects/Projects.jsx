@@ -7,6 +7,8 @@ import img3 from '../../Assets/playmixerpreview3.png';
 import img4 from '../../Assets/PersonalPortfoliosite1.png';
 import img5 from '../../Assets/plus-icon-black-2.png';
 
+import {RiToolsFill} from '../../../node_modules/react-icons/ri';
+
 
 const projects = [
     {

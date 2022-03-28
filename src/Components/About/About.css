@@ -1,5 +1,5 @@
 .container {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -8,10 +8,15 @@
 }
 
 .about-me h2 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .about-me p {
-  margin: 5rem 10rem;
-  font-size: 24px;
+  margin: 2rem 10rem;
+  font-size: 34px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #ffdcc8;
 }
