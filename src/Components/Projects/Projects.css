@@ -70,6 +70,6 @@ h2 {
 
 .btn:hover {
   transition: 400ms ease-in-out;
-  background: #ffb291;
+  background: rgba(255, 108, 62, 1);
   border-color: transparent;
 }

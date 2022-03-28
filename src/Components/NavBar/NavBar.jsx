@@ -16,9 +16,9 @@ const NavBar = () => {
         <nav>
             <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} > <AiOutlineHome /> {/* Home */} </a>
             <a href="#About" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''} > <AiOutlineUser /> {/* About me */} </a>
-            <a href="#" onClick={() => setActiveNav('#stack')} className={activeNav === '#stack' ? 'active' : ''}> <BiCollection /> {/* Contact me */}</a>
+            <a href="#Projects" onClick={() => setActiveNav('#stack')} className={activeNav === '#stack' ? 'active' : ''}> <BiCollection /> {/* Contact me */}</a>
             <a href="#Projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}> <AiOutlineExperiment /> {/* projects */}</a>
-            <a href="#" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <BiMessageSquareDetail /> {/* Contact me */}</a>
+            <a href="#Contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <BiMessageSquareDetail /> {/* Contact me */}</a>
         </nav>
     )
 }
