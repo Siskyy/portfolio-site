@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --transition: all 400ms ease;
+}
+
 html {
   scroll-behavior: smooth;
 }
