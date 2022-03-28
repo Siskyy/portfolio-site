@@ -1,0 +1,38 @@
+.contact-container {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1;
+  margin: 0 auto;
+  padding-bottom: 15rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 2px solid #ff6c3e;
+  border-radius: 0.3rem;
+  background: transparent;
+  color: #ffdcc8;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.btn.submit-button {
+  background-color: #ff6c3e;
+  border: 1px solid transparent;
+  width: 25%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn.submit-button:hover {
+  background-color: #ffdcc8;
+  color: #364657;
+}
