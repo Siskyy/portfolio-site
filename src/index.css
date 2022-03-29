@@ -10,6 +10,14 @@
 }
 
 :root {
+  --color-lightcream: #fffef2;
+  --color-cream: #ffdcc8;
+  --color-bg: #2d102a;
+  --color-orange: #ff6c3e;
+  --color-winered: #962d44;
+  --color-purple: #472844;
+  --color-grey: #364657;
+
   --transition: all 400ms ease;
 }
 

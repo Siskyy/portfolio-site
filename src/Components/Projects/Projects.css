@@ -15,15 +15,15 @@ h2 {
 }
 
 .project-tile {
-  background: #472844;
+  background: var(--color-purple);
   border-radius: 2rem;
   border: 1px solid transparent;
   padding: 1.25rem;
   transition: var(--transition);
 }
 .project-tile:hover {
-  background: #962d44;
-  border-color: #fffef2;
+  background: var(--color-winered);
+  border-color: var(--color-lightcream);
 }
 
 .project-image {
