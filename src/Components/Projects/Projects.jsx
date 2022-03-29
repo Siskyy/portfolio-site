@@ -55,7 +55,7 @@ class Projects extends React.Component {
                                         <img src={image} alt="Placeholder" />
                                     </div>
                                     <h3>{title}</h3>
-                                    <p>{description}</p>
+                                    <p className="project-description">{description}</p>
                                     <div className="tech-stack">
                                         <p>{stack}</p>
                                     </div>
