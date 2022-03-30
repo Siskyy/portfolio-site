@@ -24,7 +24,7 @@ const projects = [
         id: 2,
         image: img4,
         title: 'Portfolio webiste',
-        description: 'My personal portolfio wesbite',
+        description: 'My personal portolfio wesbite built from scratch with React',
         stack: 'React.js | JavaScript | HTML & CSS',
         github: 'https://github.com/Siskyy/portfolio-site',
         demo: ''
