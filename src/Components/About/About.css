@@ -20,3 +20,26 @@
   font-weight: 600;
   color: #ffdcc8;
 }
+.socials {
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  gap: 1.8rem;
+}
+
+.socials a {
+  display: flex;
+  font-size: 4rem;
+  padding: 0.5rem;
+  color: var(--color-cream);
+}
+
+.socials a:hover {
+  color: var(--color-orange);
+  cursor: pointer;
+  transition: 1s;
+  transform: rotateY(360deg);
+}
