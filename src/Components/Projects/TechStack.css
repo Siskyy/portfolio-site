@@ -1,0 +1,23 @@
+.languages {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.languages a {
+  display: flex;
+  font-size: 2rem;
+  padding: 0.5rem 0 0 0.5rem;
+}
+.react {
+  color: rgb(97, 219, 251);
+}
+.javascript {
+  color: rgb(240, 219, 79);
+}
+.html {
+  color: #e34c26;
+}
+.css {
+  color: rgb(38, 77, 228);
+}

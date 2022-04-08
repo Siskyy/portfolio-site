@@ -1,11 +1,16 @@
 import React from 'react';
 import './Projects.css';
 
+import TechStack from './TechStack';
+
 import img1 from '../../Assets/playmixerpreview1.png';
 import img2 from '../../Assets/playmixerpreview2.png'; 
 import img3 from '../../Assets/playmixerpreview3.png';
 import img4 from '../../Assets/PersonalPortfoliosite1.png';
 import img5 from '../../Assets/plus-icon-black-2.png';
+
+// import reactIcon from '../../Assets/Icons/React-icon.png';
+// import jsIcon from '../../Assets/Icons/javascript-icon.png';
 
 import {RiToolsFill} from '../../../node_modules/react-icons/ri';
 
@@ -40,7 +45,6 @@ const projects = [
     }
 ];
 
-
 class Projects extends React.Component {
     render() {
         return (
@@ -57,7 +61,7 @@ class Projects extends React.Component {
                                     <h3>{title}</h3>
                                     <p className="project-description">{description}</p>
                                     <div className="tech-stack">
-                                        <p>{stack}</p>
+                                        <TechStack />
                                     </div>
                                     <div className="links">
                                         <a href={github} className="btn" target='_blank'>Github</a>
