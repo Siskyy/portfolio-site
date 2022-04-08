@@ -2,6 +2,7 @@
   display: flex;
   gap: 0.8rem;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .languages a {
@@ -20,4 +21,7 @@
 }
 .css {
   color: rgb(38, 77, 228);
+}
+.spotify {
+  color: rgb(30 215 96);
 }

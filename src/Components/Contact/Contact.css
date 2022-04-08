@@ -36,3 +36,7 @@ textarea {
   background-color: #ffdcc8;
   color: #364657;
 }
+
+.cream-section > h2 {
+  color: var(--color-orange);
+}
