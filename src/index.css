@@ -14,9 +14,12 @@
   --color-cream: #ffdcc8;
   --color-bg: #2d102a;
   --color-orange: #ff6c3e;
+  --color-peach: #ffa883;
   --color-winered: #962d44;
   --color-purple: #472844;
   --color-grey: #364657;
+  --color-lightblue: #c8e6ff;
+  --color-softpink: #fdf2ff;
 
   --transition: all 400ms ease;
 }
@@ -32,7 +35,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: #ffdcc8;
-  background-color: #2d102a;
+  background: #2d102a;
 }
 
 section {

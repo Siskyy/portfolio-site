@@ -44,8 +44,8 @@ const projects = [
 class Projects extends React.Component {
     render() {
         return (
-            <section id="Projects" className="container">
-                <h2>My Projects</h2>
+            <section id="Projects" className="cream-section">
+                <h2 className="section-title">My Projects</h2>
                 <div className="projects-container">
                     {
                         projects.map(({id, image, title, description, stack, github, demo}) => {
