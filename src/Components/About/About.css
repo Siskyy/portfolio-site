@@ -10,15 +10,22 @@
 .about-me h2 {
   font-size: 4rem;
 }
+.aboutMe-text {
+  background: var(--color-cream);
+  border-radius: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
 
 .about-me p {
   margin: 2rem 10rem;
   font-size: 34px;
+  color: var(--color-purple);
 }
 
 .highlight {
   font-weight: 600;
-  color: #ffdcc8;
+  color: var(--color-orange);
 }
 .socials {
   left: 50%;
@@ -35,6 +42,7 @@
   font-size: 4rem;
   padding: 0.5rem;
   color: var(--color-cream);
+  padding-top: 2rem;
 }
 
 .socials a:hover {
