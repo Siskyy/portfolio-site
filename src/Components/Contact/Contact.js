@@ -1,7 +1,19 @@
 import React from 'react';
+import { useRef } from 'react';
 import './Contact.css';
+//import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (event) => {
+        event.preventDefault();
+
+        // emailjs.sendForm();
+
+        // event.target.reset();
+    };
 
     return (
         <section id="Contact" className="cream-section">
