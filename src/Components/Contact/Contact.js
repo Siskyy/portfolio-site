@@ -10,20 +10,20 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('default_service', );
+        emailjs.sendForm('service_wr1yrb6', 'template_yen8edm', form.current, 'E5jFutJqUZ94c8ryO' );
 
-        // e.target.reset();
+        e.target.reset();
     };
 
     return (
         <section id="Contact" className="cream-section">
             <h2>Get In Touch</h2>
             <div className="contact-container">
-                <form>
-                    <input type="text" name='name' placeholder='Your Full Name'></input>
-                    <input type="email" name='email' placeholder='Your Email'></input>
-                    <textarea type="message" placeholder='Your Message' rows="7"></textarea>
-                    <button type="submit" className="btn submit-button">Send Message</button>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" name='from_name' id='from_name' placeholder='Your Full Name' required />
+                    <input type="email" name='from_email' id='from_email' placeholder='Your Email' required />
+                    <textarea name="message" id='message' placeholder='Your Message' rows="7" required />
+                    <button type="submit" className="btn submit-button" required>Send Message</button>
                 </form>
             </div>
         </section>
