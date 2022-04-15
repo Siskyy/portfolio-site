@@ -2,18 +2,13 @@ import React from 'react';
 import './Projects.css';
 
 import TechStack from './TechStack';
+import TechStack1 from './TechStack/TechStacks';
 
 import img1 from '../../Assets/playmixerpreview1.png';
 import img2 from '../../Assets/playmixerpreview2.png'; 
 import img3 from '../../Assets/playmixerpreview3.png';
 import img4 from '../../Assets/PersonalPortfoliosite1.png';
-import img5 from '../../Assets/plus-icon-black-2.png';
-
-// import reactIcon from '../../Assets/Icons/React-icon.png';
-// import jsIcon from '../../Assets/Icons/javascript-icon.png';
-
-import {RiToolsFill} from '../../../node_modules/react-icons/ri';
-
+import img5 from '../../Assets/Peckishpreview.png';
 
 const projects = [
     {
@@ -27,20 +22,20 @@ const projects = [
     },
     {
         id: 2,
-        image: img4,
-        title: 'Portfolio webiste',
-        description: 'My personal portolfio wesbite built from scratch with React',
+        image: img5,
+        title: 'Peckish - Find food in your area',
+        description: 'A React app built with Yelp API to search for food and restaurants',
         stack: 'React.js | JavaScript | HTML & CSS',
-        github: 'https://github.com/Siskyy/portfolio-site',
-        demo: ''
+        github: 'https://github.com/Siskyy/peckish',
+        demo: 'https://peckishfood.netlify.app/'
     },
     {
         id: 3,
-        image: img5,
-        title: 'New Project',
-        description: 'Working on new projects',
+        image: img4,
+        title: 'Personal Website',
+        description: 'My personal portolfio wesbite built from scratch with React',
         stack: 'React.js | JavaScript | HTML & CSS',
-        github: '',
+        github: 'https://github.com/Siskyy/portfolio-site',
         demo: ''
     }
 ];
@@ -61,7 +56,7 @@ class Projects extends React.Component {
                                     <h3>{title}</h3>
                                     <p className="project-description">{description}</p>
                                     <div className="tech-stack">
-                                        <TechStack />
+                                        <TechStack1 Techstack={id}/>
                                     </div>
                                     <div className="links">
                                         <a href={github} className="btn" target='_blank'>Github</a>

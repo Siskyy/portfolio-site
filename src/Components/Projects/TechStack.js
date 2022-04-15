@@ -11,10 +11,10 @@ const TechStack = () => {
     
     return (
         <div className="languages">
-            <a className="react"><FaReact /></a>
             <a className="javascript"><SiJavascript /></a>
             <a className="html"><DiHtml5 /></a>
             <a className="css"><DiCss3 /></a>
+            <a className="react"><FaReact /></a>
             <a className="spotify"><BsSpotify /></a>
         </div>
     )
