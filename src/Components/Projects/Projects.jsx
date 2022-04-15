@@ -1,8 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
-import TechStack from './TechStack';
-import TechStack1 from './TechStack/TechStacks';
+import TechStack from './TechStack/TechStacks';
 
 import img1 from '../../Assets/playmixerpreview1.png';
 import img2 from '../../Assets/playmixerpreview2.png'; 
@@ -56,7 +55,7 @@ class Projects extends React.Component {
                                     <h3>{title}</h3>
                                     <p className="project-description">{description}</p>
                                     <div className="tech-stack">
-                                        <TechStack1 Techstack={id}/>
+                                        <TechStack Techstack={id}/>
                                     </div>
                                     <div className="links">
                                         <a href={github} className="btn" target='_blank'>Github</a>

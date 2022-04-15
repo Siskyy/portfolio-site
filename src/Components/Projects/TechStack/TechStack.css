@@ -2,7 +2,6 @@
   display: flex;
   gap: 0.8rem;
   margin-top: 1rem;
-  justify-content: center;
 }
 
 .languages a {
@@ -10,6 +9,9 @@
   font-size: 2rem;
   padding: 0.5rem 0 0 0.5rem;
 }
+
+/* Technologies */
+
 .react {
   color: rgb(97, 219, 251);
 }
@@ -24,4 +26,10 @@
 }
 .spotify {
   color: rgb(30 215 96);
+}
+.yelp {
+  color: rgb(244, 57, 57);
+}
+.redux {
+  color: rgb(118, 74, 188);
 }

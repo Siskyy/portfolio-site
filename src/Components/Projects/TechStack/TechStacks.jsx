@@ -1,27 +1,25 @@
 import React from 'react';
-
-// React-icons imports
-
+import './TechStack.css';
 
 // imports
 
 import ReactStack from './StackList/ReactStack';
 import SpotifyStack from './StackList/SpotifyStack';
+import YelpStack from './StackList/YelpStack';
 
 
-
-const TechStack1 = (props) => {
+const TechStack = (props) => {
     
     const Techstack = props.Techstack;
 
     if (Techstack === 1) {
         return <SpotifyStack />
     } else if (Techstack === 2){
-        return <ReactStack />
+        return <YelpStack />
     } else {
         return <ReactStack />
     }
 
 };
 
-export default TechStack1;
+export default TechStack;
