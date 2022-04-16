@@ -3,8 +3,6 @@ import './Projects.css';
 
 import TechStack from './TechStack/TechStacks';
 
-import img1 from '../../Assets/playmixerpreview1.png';
-import img2 from '../../Assets/playmixerpreview2.png'; 
 import img3 from '../../Assets/playmixerpreview3.png';
 import img4 from '../../Assets/PersonalPortfoliosite1.png';
 import img5 from '../../Assets/Peckishpreview.png';
@@ -53,7 +51,10 @@ class Projects extends React.Component {
                                         <img src={image} alt="Placeholder" />
                                     </div>
                                     <h3>{title}</h3>
-                                    <p className="project-description">{description}</p>
+                                    <details>
+                                        <summary className="read-more">Details</summary>
+                                        <p className="project-description">{description}</p>
+                                    </details>
                                     <div className="tech-stack">
                                         <TechStack Techstack={id}/>
                                     </div>
