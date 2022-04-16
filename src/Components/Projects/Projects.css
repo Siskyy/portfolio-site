@@ -61,6 +61,11 @@ summary {
 
 details[open] summary ~ * {
   animation: sweep .5s ease-in-out;
+  position: absolute;
+  width: 22rem;
+  background-color: var(--color-orange);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
 }
 
 @keyframes sweep {

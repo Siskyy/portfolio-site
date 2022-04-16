@@ -21,7 +21,7 @@ const projects = [
         id: 2,
         image: img5,
         title: 'Peckish - Find food in your area',
-        description: 'A React app built with Yelp API to search for food and restaurants',
+        description: 'A React app built with Yelp API to search for food and restaurants. For functionality: Please make a demo server in one click using https://cors-anywhere.herokuapp.com as I have not built the back-end',
         stack: 'React.js | JavaScript | HTML & CSS',
         github: 'https://github.com/Siskyy/peckish',
         demo: 'https://peckishfood.netlify.app/'
