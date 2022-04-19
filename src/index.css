@@ -20,6 +20,7 @@
   --color-grey: #364657;
   --color-lightblue: #c8e6ff;
   --color-softpink: #fdf2ff;
+  --color-black: rgb(250, 250, 250);
 
   --transition: all 400ms ease;
 }
