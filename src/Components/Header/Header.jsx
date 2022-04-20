@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-import Clock from '../Clock/Clock';
+import Clock from './Clock/Clock';
 
 class Header extends React.Component {
     render() {
