@@ -1,8 +1,8 @@
-Hello!
+### This is my Wesbite portfolio I built using create-react-app
 
-This is my Wesbite portfolio I built using create-react-app
+## The site is built from scratch by me from the first init onwards
 
-The site is built from scratch by me from the first init onwards
+![Home Page](./src/Assets/ReadMeFullSize.png "Home Page")
 
 Please ask before using any designs or code from my site.
 

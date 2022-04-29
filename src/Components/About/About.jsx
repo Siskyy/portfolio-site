@@ -12,9 +12,9 @@ class About extends React.Component {
                     <h2>About me</h2>
                     <div className="aboutMe-text">
                         <p>
-                            Hi! My name is Marc, and I have been teaching myself to code for <span className="highlight">4 months</span>.
-                            I am currently studying <span className="highlight">Bsc Accounting and Finance</span> in my <span className="highlight">first year, </span> 
-                            aspiring to become proficient in <span className="highlight">Software Development.</span>
+                            Hi! My name is Marc, I am a <span className="highlight">Self-taught</span> front-end developer.
+                            I am currently on a <span className="highlight">gap year</span> to develop professional skills 
+                            and become a proficient <span className="highlight">Software Developer.</span>
                         </p>
                     </div>
                 </div>

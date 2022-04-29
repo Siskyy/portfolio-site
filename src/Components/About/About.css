@@ -19,7 +19,7 @@
 
 .about-me p {
   margin: 2rem 10rem;
-  font-size: 34px;
+  font-size: 2rem;
   color: var(--color-purple);
 }
 
@@ -50,4 +50,17 @@
   cursor: pointer;
   transition: 1s;
   transform: rotateY(360deg);
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me p {
+    margin: 2rem 2rem;
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-me p {
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+  }
 }

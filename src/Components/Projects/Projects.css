@@ -114,3 +114,17 @@ details[open] summary ~ * {
   background: rgba(255, 108, 62, 1);
   border-color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
