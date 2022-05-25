@@ -11,13 +11,14 @@ import RedditStack from './StackList/RedditStack';
 const TechStack = (props) => {
     
     const Techstack = props.Techstack;
+    const Smaller = props.Smaller;
 
     if (Techstack === 1) {
-        return <RedditStack />
+        return <RedditStack className="smaller"/>
     } else if (Techstack === 2){
-        return <SpotifyStack />
+        return <SpotifyStack className="default"/>
     } else if (Techstack === 3) {
-        return <YelpStack />
+        return <YelpStack className="default"/>
     } else {
         return <ReactStack />
     }

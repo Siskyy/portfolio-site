@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar/NavBar';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
-import ScrollBar from './Components/ScrollBar/ScrollBar';
+import ProjectsNew from './Components/Projects/ProjectsNew';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       {/* <ScrollBar /> */}
       <NavBar />
       <About />
-      <Projects />
+      <ProjectsNew />
       <Contact />
     </>
   );
