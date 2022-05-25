@@ -15,6 +15,8 @@
   border-radius: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .about-me p {
@@ -43,6 +45,8 @@
   padding: 0.5rem;
   color: var(--color-cream);
   padding-top: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .socials a:hover {

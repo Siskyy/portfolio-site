@@ -5,6 +5,7 @@ header {
   background-size: cover;
   padding-top: 16rem;
   padding-bottom: 37rem;
+  
 }
 
 .greeting {
@@ -15,6 +16,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+  
 }
 
 .greeting h1 {
